@@ -1,0 +1,80 @@
+.page-header {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    flex-direction: column;
+}
+.impact_area {
+    background: #f1f4f7; 
+    border: 1px solid #eee;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.portlet.light.bg-inverse {
+    margin-bottom: 0px !important;
+}
+.description_style {
+    margin: 20px 15px;
+    padding: 5px 15px;
+}
+.treeview_style {
+    margin: 12px;
+    margin-top: 0px;
+}
+.guidebook_style {
+    padding: 12px 20px 12px;
+}
+.guidebook_title_style {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0px 15px 0px;
+}
+.guidebook_title_style span {
+    font-size: 16px;
+    font-weight: 700 !important;
+    color: #666;
+    padding-bottom: 5px;
+}
+.guidebook_body_style {
+    padding: 12px 5px;
+}
+.guidebook_component {
+    margin-top: 20px;
+}
+.guidebook_component span {
+    font-size: 15px;
+    font-weight: 500;
+}
+.guidebook_component a {
+    font-size: 13px;
+}
+.search_area {
+    padding-top: 10px;
+}
+.checkboxes_area .checkbox {
+    padding-bottom: 5px;
+}
+.no-margin {
+    margin: 0px !important;
+}
+.no-padding {
+    padding: 0px !important;
+}
+.use-margin {
+    margin: 0px 10px;
+}
+.ul_style {
+    list-style: none;
+    padding: 0px;
+}
+.result_search_style {
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #eee;
+    padding-right: 10px;
+}
+.impact_area.result {
+    margin-left: 15px;
+}

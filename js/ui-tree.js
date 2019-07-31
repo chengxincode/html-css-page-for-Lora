@@ -8,45 +8,52 @@ var UITree = function () {
                 // so that create works
                 "check_callback" : true,
                 'data': [{
-                        "text": "Parent Node",
-                        "children": [{
-                            "text": "Initially selected",
-                            "state": {
-                                "selected": true
+                    "text": "Impact Area",
+                    "children": [{
+                        "text": "Ambulatory Surgery Centers",
+                        "state": {
+                            "selected": true
+                        }
+                    }, {
+                        "text": "Hospices",
+                        "state": {
+                            "opened": true
+                        },
+                        "children": [
+                            {"text": "Hospices Option 1"}, 
+                            {"text": "Hospices Option 2"}, 
+                            {
+                                "text": "Hospices Option 3",
+                                "state": {
+                                    "opened": true
+                                },
+                                "children": [{
+                                    "text": "Hospices Option 3", 
+                                    "children": [
+                                        {"text": "Hospices Option 3a"}
+                                    ],
+                                }]
                             }
-                        }, {
-                            "text": "Custom Icon",
-                        }, {
-                            "text": "Initially open",
-                            "state": {
-                                "opened": true
-                            },
-                            "children": [
-                                {
-                                    "text": "Another node", 
-                                }
-                            ]
-                        }, {
-                            "text": "Another Custom Icon",
-                        }, {
-                            "text": "Disabled Node",
-                            "state": {
-                                "disabled": true
-                            }
-                        }, {
-                            "text": "Sub Nodes",
-                            "children": [
-                                {"text": "Item 1"},
-                                {"text": "Item 2"},
-                                {"text": "Item 3"},
-                                {"text": "Item 4"},
-                                {"text": "Item 5"}
-                            ]
-                        }]
-                    },
-                    "Another Node"
-                ]
-            },
+                        ]
+                    }, {
+                        "text": "Long Term Care Facilities",
+                    }, {
+                        "text": "Psychiatric Residential Treatment Facilities",
+                        "state": {
+                            "disabled": true
+                        }
+                    }, {
+                        "text": "Critical Access Hospitals",
+                        "children": [
+                            {"text": "Item 1"},
+                            {"text": "Item 2"},
+                            {"text": "Item 3"},
+                            {"text": "Item 4"},
+                            {"text": "Item 5"}
+                        ]
+                    }]
+                }
+            ]},
             "types" : {
                 "default" : {
                     "icon" : "fa fa-file icon-state-warning icon-lg"
@@ -66,45 +73,52 @@ var UITree = function () {
                 // so that create works
                 "check_callback" : true,
                 'data': [{
-                        "text": "Parent Node",
-                        "children": [{
-                            "text": "Initially selected",
-                            "state": {
-                                "selected": true
+                    "text": "Impact Area",
+                    "children": [{
+                        "text": "Ambulatory Surgery Centers",
+                        "state": {
+                            "selected": true
+                        }
+                    }, {
+                        "text": "Hospices",
+                        "state": {
+                            "opened": true
+                        },
+                        "children": [
+                            {"text": "Hospices Option 1"}, 
+                            {"text": "Hospices Option 2"}, 
+                            {
+                                "text": "Hospices Option 3",
+                                "state": {
+                                    "opened": true
+                                },
+                                "children": [{
+                                    "text": "Hospices Option 3", 
+                                    "children": [
+                                        {"text": "Hospices Option 3a"}
+                                    ],
+                                }]
                             }
-                        }, {
-                            "text": "Custom Icon",
-                        }, {
-                            "text": "Initially open",
-                            "state": {
-                                "opened": true
-                            },
-                            "children": [
-                                {
-                                    "text": "Another node", 
-                                }
-                            ]
-                        }, {
-                            "text": "Another Custom Icon",
-                        }, {
-                            "text": "Disabled Node",
-                            "state": {
-                                "disabled": true
-                            }
-                        }, {
-                            "text": "Sub Nodes",
-                            "children": [
-                                {"text": "Item 1"},
-                                {"text": "Item 2"},
-                                {"text": "Item 3"},
-                                {"text": "Item 4"},
-                                {"text": "Item 5"}
-                            ]
-                        }]
-                    },
-                    "Another Node"
-                ]
-            },
+                        ]
+                    }, {
+                        "text": "Long Term Care Facilities",
+                    }, {
+                        "text": "Psychiatric Residential Treatment Facilities",
+                        "state": {
+                            "disabled": true
+                        }
+                    }, {
+                        "text": "Critical Access Hospitals",
+                        "children": [
+                            {"text": "Item 1"},
+                            {"text": "Item 2"},
+                            {"text": "Item 3"},
+                            {"text": "Item 4"},
+                            {"text": "Item 5"}
+                        ]
+                    }]
+                }
+            ]},
             "types" : {
                 "default" : {
                     "icon" : "fa fa-file icon-state-warning icon-lg"
@@ -124,45 +138,52 @@ var UITree = function () {
                 // so that create works
                 "check_callback" : true,
                 'data': [{
-                        "text": "Parent Node",
-                        "children": [{
-                            "text": "Initially selected",
-                            "state": {
-                                "selected": true
+                    "text": "Impact Area",
+                    "children": [{
+                        "text": "Ambulatory Surgery Centers",
+                        "state": {
+                            "selected": true
+                        }
+                    }, {
+                        "text": "Hospices",
+                        "state": {
+                            "opened": true
+                        },
+                        "children": [
+                            {"text": "Hospices Option 1"}, 
+                            {"text": "Hospices Option 2"}, 
+                            {
+                                "text": "Hospices Option 3",
+                                "state": {
+                                    "opened": true
+                                },
+                                "children": [{
+                                    "text": "Hospices Option 3", 
+                                    "children": [
+                                        {"text": "Hospices Option 3a"}
+                                    ],
+                                }]
                             }
-                        }, {
-                            "text": "Custom Icon",
-                        }, {
-                            "text": "Initially open",
-                            "state": {
-                                "opened": true
-                            },
-                            "children": [
-                                {
-                                    "text": "Another node", 
-                                }
-                            ]
-                        }, {
-                            "text": "Another Custom Icon",
-                        }, {
-                            "text": "Disabled Node",
-                            "state": {
-                                "disabled": true
-                            }
-                        }, {
-                            "text": "Sub Nodes",
-                            "children": [
-                                {"text": "Item 1"},
-                                {"text": "Item 2"},
-                                {"text": "Item 3"},
-                                {"text": "Item 4"},
-                                {"text": "Item 5"}
-                            ]
-                        }]
-                    },
-                    "Another Node"
-                ]
-            },
+                        ]
+                    }, {
+                        "text": "Long Term Care Facilities",
+                    }, {
+                        "text": "Psychiatric Residential Treatment Facilities",
+                        "state": {
+                            "disabled": true
+                        }
+                    }, {
+                        "text": "Critical Access Hospitals",
+                        "children": [
+                            {"text": "Item 1"},
+                            {"text": "Item 2"},
+                            {"text": "Item 3"},
+                            {"text": "Item 4"},
+                            {"text": "Item 5"}
+                        ]
+                    }]
+                }
+            ]},
             "types" : {
                 "default" : {
                     "icon" : "fa fa-file icon-state-warning icon-lg"
@@ -182,33 +203,108 @@ var UITree = function () {
                 // so that create works
                 "check_callback" : true,
                 'data': [{
-                        "text": "Parent Node",
+                    "text": "Impact Area",
+                    "children": [{
+                        "text": "Ambulatory Surgery Centers",
+                        "state": {
+                            "selected": true
+                        }
+                    }, {
+                        "text": "Hospices",
+                        "state": {
+                            "opened": true
+                        },
+                        "children": [
+                            {"text": "Hospices Option 1"}, 
+                            {"text": "Hospices Option 2"}, 
+                            {
+                                "text": "Hospices Option 3",
+                                "state": {
+                                    "opened": true
+                                },
+                                "children": [{
+                                    "text": "Hospices Option 3", 
+                                    "children": [
+                                        {"text": "Hospices Option 3a"}
+                                    ],
+                                }]
+                            }
+                        ]
+                    }, {
+                        "text": "Long Term Care Facilities",
+                    }, {
+                        "text": "Psychiatric Residential Treatment Facilities",
+                        "state": {
+                            "disabled": true
+                        }
+                    }, {
+                        "text": "Critical Access Hospitals",
+                        "children": [
+                            {"text": "Item 1"},
+                            {"text": "Item 2"},
+                            {"text": "Item 3"},
+                            {"text": "Item 4"},
+                            {"text": "Item 5"}
+                        ]
+                    }]
+                }
+            ]
+            },
+            "types" : {
+                "default" : {
+                    "icon" : "fa fa-file icon-state-warning icon-lg"
+                },
+                "file" : {
+                    "icon" : "fa fa-file icon-state-warning icon-lg"
+                }
+            },
+            "state" : { "key" : "demo2" },
+            "plugins" : [ "contextmenu", "dnd", "state", "types" ]
+        });
+        $("#tree_5").jstree({
+            "core" : {
+                "themes" : {
+                    "responsive": false
+                }, 
+                // so that create works
+                "check_callback" : true,
+                'data': [{
+                        "text": "Impact Area",
                         "children": [{
-                            "text": "Initially selected",
+                            "text": "Ambulatory Surgery Centers",
                             "state": {
                                 "selected": true
                             }
                         }, {
-                            "text": "Custom Icon",
-                        }, {
-                            "text": "Initially open",
+                            "text": "Hospices",
                             "state": {
                                 "opened": true
                             },
                             "children": [
+                                {"text": "Hospices Option 1"}, 
+                                {"text": "Hospices Option 2"}, 
                                 {
-                                    "text": "Another node", 
+                                    "text": "Hospices Option 3",
+                                    "state": {
+                                        "opened": true
+                                    },
+                                    "children": [{
+                                        "text": "Hospices Option 3", 
+                                        "children": [
+                                            {"text": "Hospices Option 3a"}
+                                        ],
+                                    }]
                                 }
                             ]
                         }, {
-                            "text": "Another Custom Icon",
+                            "text": "Long Term Care Facilities",
                         }, {
-                            "text": "Disabled Node",
+                            "text": "Psychiatric Residential Treatment Facilities",
                             "state": {
                                 "disabled": true
                             }
                         }, {
-                            "text": "Sub Nodes",
+                            "text": "Critical Access Hospitals",
                             "children": [
                                 {"text": "Item 1"},
                                 {"text": "Item 2"},
@@ -217,8 +313,7 @@ var UITree = function () {
                                 {"text": "Item 5"}
                             ]
                         }]
-                    },
-                    "Another Node"
+                    }
                 ]
             },
             "types" : {
